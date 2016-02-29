@@ -1,0 +1,11 @@
+---
+layout: page
+title: Talks 
+permalink: /talks/
+---
+
+{% for talk in site.data.talks %}
+<h4><a href="{{ talk.link }}">{{ talk.title}}</a></h4>
+<p><strong>{{ talk.conf }}</strong> - <em>{{talk.when }}</em></p>
+<hr />
+{% endfor %}

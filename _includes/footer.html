@@ -1,12 +1,8 @@
-<div class="disclaimer">
-  {% if site.theme.show_disclaimer %}
-  <p>
-    The postings on this site are my own and don't necessarily represent my 
-    employer’s positions, strategies or opinions.
-  </p>
-  {% endif %}
-
-  <p>
-    © {{ site.theme.name }}, 2013 &mdash; built with Jekyll using Lagom theme
-  </p>
-</div>
+<footer class="site-footer">
+  <div class="container">
+    {% include social.html %}
+    <p class="txt-medium-gray">
+      <small>&copy;{{ site.time | date: '%Y' }} All rights reserved. Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and ♥</small>
+    </p>
+  </div>
+</footer>

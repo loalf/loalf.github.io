@@ -1,0 +1,44 @@
+#- title: "Beyond virtualization!"
+#  conf:  "Internal training"
+#  when:  "October, 2015"
+#  slides: ""
+
+- title: "Continously delivering PHP projects"
+  conf:  "PHP UK Conference"
+  when:  "February, 2015"
+  link:  "https://www.youtube.com/watch?v=HOwPJg-F4h0"
+
+- title: "One commit, one release. Continously delivering a Symfony project"
+  conf:  "Symfony Live UK"
+  when:  "September, 2014"
+  link:  "https://www.youtube.com/watch?v=sPcmIDV_r4g"
+
+- title: "PHP's FIG and PSR"
+  conf:  "PHP UK Meetup"
+  when:  "November, 2013"
+  link:  "http://www.slideshare.net/loalf/fig-and-psr"
+
+- title: "What's coming up in Symfony 2.3"
+  conf:  "deSymfony"
+  when:  "July, 2013"
+  link:  "https://www.youtube.com/watch?v=I9Y7SKcSHGM"
+
+- title: "Shifting gears with Composer"
+  conf:  "PHP Symfony UK Meetup"
+  when:  "August, 2012"
+  link:  "http://www.slideshare.net/loalf/shifting-gears-with-composer"
+
+- title: "Symfony2 Components"
+  conf:  "deSymfony"
+  when:  "July, 2012"
+  link:  "https://www.youtube.com/watch?v=iFWZS0zEgkQ"
+
+- title: "Forms and Security in Symfony2"
+  conf: "deSymfony"
+  when: "July, 2011"
+  link: "https://www.youtube.com/watch?v=dlk0UTi-3Fs"
+
+- title: "The AdminGenerator in symfony 1.4"
+  conf: "deSymfony"
+  when: "July, 2010"
+  link: "http://www.slideshare.net/loalf/symfony-y-admin-generator"

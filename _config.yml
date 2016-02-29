@@ -1,34 +1,48 @@
-# General Jekyll Config
-pygments: true
+# Build settings
+permalink   : /blog/:year/:title/
+markdown    : kramdown
+
+paginate: 3
+paginate_path: "/blog/page/:num/"
+comments: true
+
+destination: _site
+sass:
+  sass_dir: _scss
+  style: compressed # expanded
+
+# SEO settings
+title: Javier López - Software Engineer
+description: "Javier López - Software Engineer: PHP, Java, Scala, Elasticsearch, Docker."
+keywords: "software, engineer, php, java, scala, elasticsearch, docker"
 url: http://loalf.github.io
-lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore]
 
-# Theme customization - please change from the defaults!
-theme:
-  # Color for top bar, links, etc
-  highlight_color: '#3498db'
+# google_analytics: UA-52446115-1
+repo: http://github.com/loalf
+disqus_shortname: "loalf"
+disqus_site_shortname: "loalf"
 
-  # Profile links on the left sidebar, leave blank to ignore
-  social:
-    github: loalf
-    #bitbucket: philipj
-    #hacker_news: swanson
-    #stackexchange: 348619
-    #stackoverflow: 348619
-    twitter: loalf
-    #facebook: zuck
-    #tumblr: animalygifs
-    #linkedin: philipjagielski
-    #gplus: 110552447039675960964
+# Author settings
+author:
+  name      : Javier López
+  job       : Software Engineer
+  bio       : "I am passionate, creative and enthusiastic software engineer, always eager to learn and experiment with new technologies."
+  thumb     : /images/avatar.jpg
+  email     : alcaraz1983@gmail.com
+  url       : http://loalf.github.io
+  github    : http://github.com/loalf
+  twitter   : http://twitter.com/loalf
+  linkedin  : http://linkedin.com/in/loalf
 
-  # "Hi, I'm _______"
-  name: Javier Lopez 
-  email: test@example.com
-  tagline: "Notes to self"
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: talks
+    title: Talks
+  # - slug: skills
+  #   title: Skills
+  - slug: blog
+    title: Blog
 
-  # Google Analytics key, leave blank to ignore
-  # google_analytics_key: UA-xxxx-x
-
-  # Toggle "Postings are my own" disclaimer in footer
-  # show_disclaimer: true
+gems: [jekyll-paginate]

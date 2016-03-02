@@ -36,13 +36,13 @@ author:
 
 # navbar pages
 navbar:
-  - slug: about
-    title: About
+  # - slug: about
+  #  title: About
   - slug: talks
     title: Talks
   # - slug: skills
   #   title: Skills
-  - slug: blog
-    title: Blog
+  # - slug: blog
+  #  title: Blog
 
 gems: [jekyll-paginate]

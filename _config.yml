@@ -42,7 +42,7 @@ navbar:
     title: Talks
   # - slug: skills
   #   title: Skills
-  # - slug: blog
-  #  title: Blog
+  - slug: blog
+    title: Blog
 
 gems: [jekyll-paginate]
